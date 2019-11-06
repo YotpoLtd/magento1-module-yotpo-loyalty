@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Swell
+ * @package     Swell_Swell
+ * @copyright   Copyright (c) Swell Rewards (https://www.swellrewards.com/)
+ */
+ -->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <swell>
+                        <title>Swell</title>
+                        <sort_order>60</sort_order>
+                    </swell>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <swell translate="title" module="swell">
+                                        <title>Swell</title>
+                                    </swell>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
