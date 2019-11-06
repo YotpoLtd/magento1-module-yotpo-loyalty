@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Swell
+ * @package     Swell_Swell
+ * @copyright   Copyright (c) Swell Rewards (https://www.swellrewards.com/)
+ */
+ -->
+<config>
+    <modules>
+        <Swell_Swell>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Customer/>
+                <Mage_Sales/>
+            </depends>
+        </Swell_Swell>
+    </modules>
+</config>
