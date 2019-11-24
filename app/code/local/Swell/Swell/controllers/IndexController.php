@@ -338,7 +338,7 @@ class Swell_Swell_IndexController extends Mage_Core_Controller_Front_Action
 
     public function testAction()
     {
-        $this->sendResponse(['success' => true]);
+        $this->sendResponse(['success' => true, 'version' => '24-11-2019']);
     }
 
     public function manual_cronAction()
