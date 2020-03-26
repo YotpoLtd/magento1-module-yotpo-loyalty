@@ -168,12 +168,12 @@ class Swell_Swell_Helper_Data extends Mage_Core_Helper_Abstract
     {
         // return "http://localhost:3000";
         // TODO: should be inside system.xml and moved to a configuration instead of hardcoding the domain
-        return "https://app.swellrewards.com";
+        return "https://loyalty.yotpo.com";
     }
 
     public function getSwellCdnHost()
     {
-        return "https://cdn.swellrewards.com";
+        return "https://cdn-loyalty.yotpo.com";
     }
 
     public function getSetupUrl()
